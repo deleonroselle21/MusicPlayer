@@ -112,7 +112,7 @@ public class MusicPlayer {
 		answer=scanner.next().charAt(0);
 		
 		//scanner.close();
-		}while((answer=='y')||(answer=='Y')||(choiceList==3));
+		}while((answer=='y')||(answer=='Y'));
 		
 		
 		System.out.println("Thank You! GoodBye");
