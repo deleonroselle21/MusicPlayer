@@ -36,10 +36,9 @@ public class MusicPlayer {
 			playList.DisplaySongs();
 			System.out.println("[1]Remove Songs from Play List");
 			System.out.println("[2]Play Playlist");
-			System.out.println("[3]Back");
 			
 			  choiceList=Integer.parseInt(scanner.nextLine());
-		        // scanner.nextLine();
+		      
 			
 			if(choiceList==1) {
 				
